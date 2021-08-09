@@ -3,30 +3,33 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "b2ce5779a60ba1d62cc6d155f9a9bee8",
+  "assets/AssetManifest.json": "92d75fa6cebaeb012562ae5febe01da5",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/lib/icons/android_icon.png": "8d215f4a35640e70749c5152ba31f794",
+"assets/lib/icons/apple_icon.png": "a5f3d30265ff51222d1f85da968efe1a",
+"assets/lib/icons/cross_platform_icon.png": "46368ee427de61208120cd1fd1479083",
 "assets/lib/icons/github_2x.png": "6401c06a4431eb5619083e6a1783ed63",
 "assets/lib/icons/linkedin_2x.png": "05c47a776fed9b4cd955e073f6528255",
 "assets/lib/icons/mob_dev.png": "0b269d07676728567ecc4515b45ee02a",
-"assets/lib/icons/pegas.svg": "28d9763985c479f288051bb3d006beb4",
+"assets/lib/icons/pegas.svg": "7e7c7a055521edbcacc5b00ddcd31966",
 "assets/lib/icons/pen.png": "858e481ed2f6569c100ad50159f99f86",
-"assets/lib/icons/solutions.svg": "9d91efd12a91d7fdc24cee98c3281ee9",
+"assets/lib/icons/solutions.svg": "df765bbad72906263ad5846e6ccb8161",
 "assets/lib/icons/twitter_2x.png": "d5011590d94aab0f6e051754d553459d",
 "assets/lib/icons/web.png": "344fd3cde2e70569da2f0df1ef555759",
 "assets/lib/images/app_animations.gif": "ce4f4dd103210955989e9aaaf31b0bfe",
 "assets/lib/images/developer_activity.svg": "fd90994a62e11dae7b8e7bdb2aeafc24",
 "assets/lib/images/dev_productivity.svg": "be05fb23bfb6ade7684974eb9c61d1fd",
-"assets/NOTICES": "65d48139521ce7dededc4d6558fd4e80",
+"assets/NOTICES": "1d1b5d13784fa01b0851d46131161a0a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "ic.png": "8ec3982aeae208a342e5210678aad56b",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "6583233292cd28923463d4c18eef02bf",
-"/": "6583233292cd28923463d4c18eef02bf",
-"main.dart.js": "3f0db0219f536995f6b8a678eba85ff3",
+"index.html": "5369cfe0f18d3fe943c447cb686d730b",
+"/": "5369cfe0f18d3fe943c447cb686d730b",
+"main.dart.js": "d580f9b5fe9a51527b99737d54db8784",
 "manifest.json": "0bbaea19127874419dbe5ec0f18ebf30",
-"pegas.svg": "28d9763985c479f288051bb3d006beb4",
+"pegas.svg": "7e7c7a055521edbcacc5b00ddcd31966",
 "version.json": "cf85676e37bd1bd909c5d038a8b2b920"
 };
 
@@ -45,7 +48,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
