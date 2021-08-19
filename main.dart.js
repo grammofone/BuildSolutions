@@ -63416,7 +63416,7 @@ s=m.d
 r=T.ak(l,m.e*0.05,l)
 q=U.aeB(40,15)
 p=m.e
-p=M.b6(l,G.nk("lib/images/dev_productivity.svg",l),l,l,l,0.8*p,l,l,l)
+p=M.b6(l,G.nk("lib/images/dev_productivity.svg",m.d*0.6),l,l,l,0.8*p,l,l,l)
 o=K.fh(40)
 n=C.r.h(0,400)
 return M.b6(l,T.bQ(H.b([r,q,p,B.EA(L.aH("Apply to us",l,l,l,B.aS(C.j,l,18,l,l),l,l),n,10,new U.a6A(m),new V.ar(30,20,30,20),new X.d1(o,C.w)),T.ak(l,64,l),L.aH("What we can do?",l,l,l,B.aS(C.r.h(0,400),l,30,C.aT,l),l,l),T.ak(l,32,l)],t.X),C.u,C.oi,C.l),l,l,new S.d7(l,l,l,l,l,new T.e2(C.bM,C.bp,C.ai,k,l,l),C.Z),l,l,new V.ar(20,0,20,0),s)},
