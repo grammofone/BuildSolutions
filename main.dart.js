@@ -10898,7 +10898,7 @@ _.c=null},
 a4V:function a4V(a){this.a=a},
 vt:function vt(a){this.a=a},
 Ls:function Ls(a){var _=this
-_.a=_.r=_.f=_.d=null
+_.a=_.r=_.f=_.e=_.d=null
 _.b=a
 _.c=null},
 a6A:function a6A(a){this.a=a},
@@ -63407,21 +63407,21 @@ an:function(){return new U.Ls(C.k)}}
 U.Ls.prototype={
 N:function(a,b){var s,r,q,p,o,n,m=this,l=null,k=t.w
 m.d=b.S(k).f.a.a
-b.S(k).toString
+m.e=b.S(k).f.a.b
 k=Y.e8(b,t.r)
 m.f=k
 m.r=k.a
 k=H.b([C.j,C.r.h(0,100)],t.d)
 s=m.d
-r=T.ak(l,100,l)
+r=T.ak(l,m.e*0.05,l)
 q=U.aeB(40,15)
-p=m.d
-p=M.b6(l,G.nk("lib/images/dev_productivity.svg",l),l,l,l,l,l,l,0.8*p)
+p=m.e
+p=M.b6(l,G.nk("lib/images/dev_productivity.svg",l),l,l,l,0.8*p,l,l,l)
 o=K.fh(40)
 n=C.r.h(0,400)
 return M.b6(l,T.bQ(H.b([r,q,p,B.EA(L.aH("Apply to us",l,l,l,B.aS(C.j,l,18,l,l),l,l),n,10,new U.a6A(m),new V.ar(30,20,30,20),new X.d1(o,C.w)),T.ak(l,64,l),L.aH("What we can do?",l,l,l,B.aS(C.r.h(0,400),l,30,C.aT,l),l,l),T.ak(l,32,l)],t.X),C.u,C.oi,C.l),l,l,new S.d7(l,l,l,l,l,new T.e2(C.bM,C.bp,C.ai,k,l,l),C.Z),l,l,new V.ar(20,0,20,0),s)},
 sa2:function(a,b){return this.d=b},
-sa0:function(){}}
+sa0:function(a,b){return this.e=b}}
 U.a6A.prototype={
 $0:function(){var s=0,r=P.a_(t.P),q=this,p,o
 var $async$$0=P.U(function(a,b){if(a===1)return P.X(b,r)
@@ -63548,7 +63548,7 @@ case 5:s=8
 return P.W(T.PF(o),$async$$0)
 case 8:case 6:s=3
 break
-case 4:o=new O.vd(H.b(["kurakin.0808@gmail.com"],p),H.b([],p),H.b([],p),"Hello, i like your product!!","My phone number is: "+H.c(n.a)).i(0)
+case 4:o=new O.vd(H.b(["pegas.main@gmail.com"],p),H.b([],p),H.b([],p),"Hello, i like your product!!","My phone number is: "+H.c(n.a)).i(0)
 s=11
 return P.W(T.PA(o),$async$$0)
 case 11:s=b?9:10
