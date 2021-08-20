@@ -63540,7 +63540,7 @@ m=m!==""&&m!=null
 p=t.i
 s=m?2:4
 break
-case 2:o=new O.vc(H.b(["kurakin.0808@gmail.com"],p),H.b([],p),H.b([],p),"Hello, i like your product!!","My email is: "+H.c(n.b)).i(0)
+case 2:o=new O.vc(H.b(["pegas.main@gmail.com"],p),H.b([],p),H.b([],p),"Hello, i like your product!!","My email is: "+H.c(n.b)).i(0)
 s=7
 return P.W(T.PA(o),$async$$0)
 case 7:s=b?5:6
